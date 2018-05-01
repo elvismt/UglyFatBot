@@ -1,14 +1,17 @@
 {
-  "name": "uglyfatbot",
+  "name": "ugly-fat-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Chatbot"
+  ],
+  "author": "Elvis Teixeira",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
